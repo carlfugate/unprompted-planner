@@ -1,6 +1,6 @@
 {
  "source": "https://unpromptedcon.org/agenda-10-2026/",
- "source_modified": "2026-10-28T06:49:49Z",
+ "source_modified": "2026-10-28T17:20:02Z",
  "days": [
   "2026-10-27",
   "2026-10-28",
@@ -1502,13 +1502,13 @@
    "kind": "session"
   },
   {
-   "id": "51bd430b17",
+   "id": "2622d3591a",
    "day": 2,
    "date": "2026-10-28",
    "track": "Stage 2",
    "start": "14:45",
    "end": "15:10",
-   "title": "Pandora’s Dir – Hope at the bottom of ../",
+   "title": "Pandora’s Dir – Leaked Threat Actor Prompts, Rogue AI Agents & Hope at the Bottom of ../",
    "speakers": [
     {
      "name": "Rik Dolfing",
@@ -1519,7 +1519,7 @@
      "affiliation": "Principal security analyst, Google"
     }
    ],
-   "abstract": "Everyone is speculating about how threat actors are using AI behind the scenes, but this telemetry is notoriously hard to come by. Unless however, threat actors leave their servers wide open. Armed with a scaled and targeted open-directory pipeline plus the hypothesis that exposed infrastructure holds the real story, we went hunting for the intersection of malicious activity and AI adoption. This presentation will jump into our findings, rabbit holes, time sinks, and that of a rainbow donkey. We’ll share qualitative real-world cases about weaponized AI assistants, an AI agent running an underground syndicate, and 23K hoarded API keys. We will break down our analysis and the trends we observed when cracking open these digital Pandora’s boxes. While we discovered mature AI setups for malicious use cases, we came to the conclusion that, at least for now, there is hope at the bottom of ../",
+   "abstract": "While public discussion often focuses on theoretical risks regarding how threat actors use AI behind the scenes, this telemetry is hard to come by. So, we started tracking threat actors who leave their servers wide open and expose these artifacts. Armed with a scaled open-directory pipeline and the hypothesis that exposed attacker infrastructure holds the real story, we went hunting for the intersection of malicious operations and AI adoption. Instead of guessing what attackers are doing with LLMs, we read their private prompts, custom agent skills, and failure logs firsthand. We’ll share real-world cases straight from adversary servers: an AI agent moonlighting as a secretary for an underground gambling syndicate, attackers hijacking AI middleware to fight turf wars over enterprise GPUs, and operators using custom-jailbroken AI “hacking partners” to compromise government portals. However, OPSEC mistakes within their AI configurations allowed us to unmask their real darknet identities. While we discovered mature AI setups for malicious use cases, we came to the conclusion that, at least for now, there is hope at the bottom of ../",
    "kind": "session"
   },
   {
@@ -1643,24 +1643,15 @@
    "kind": "workshop"
   },
   {
-   "id": "631dcc8da8",
+   "id": "ec9e7686ff",
    "day": 2,
    "date": "2026-10-28",
    "track": "Stage 1",
    "start": "16:20",
    "end": "16:45",
-   "title": "Auto-Exploiter by Use of a Ratchet Loop, Code Understanding, and… Haiku",
-   "speakers": [
-    {
-     "name": "John Cartwright",
-     "affiliation": "Reverse Engineer"
-    },
-    {
-     "name": "Gadi Evron",
-     "affiliation": "Founder and CEO, Knostic"
-    }
-   ],
-   "abstract": "We built an exploit-generation system using Anthropic’s Haiku model. Our first approach was a Karpathy-style auto-research loop with a progressive ratchet, using Opus. It was only with Opus 4.7 that the model started producing useful results. That led to a second insight: the limiting factor was whether the system actually understood code. And with Opus, the engineering problem became too easy. Making the system work with Haiku became our badge of honor: endless failure. Haiku tends to favor fast responses, avoid extended reasoning, and avoid tool use. We focused on the harness again: how it represents the target, preserves state, reasons about code paths, tracks vulnerability conditions, and carries exploitation progress across attempts. The hardest cases still fail. We have not yet achieved full exploitation of difficult real-world memory corruption targets (Baron Samedit and libwebp) with mitigations. We made real progress, and we’re here to share our many failures.",
+   "title": "TBD",
+   "speakers": [],
+   "abstract": "",
    "kind": "session"
   },
   {
@@ -1692,8 +1683,13 @@
    "start": "16:45",
    "end": "17:10",
    "title": "Stolen Thoughts: How Adversaries Steal Reasoning for Industrial-Scale Distillation",
-   "speakers": [],
-   "abstract": "",
+   "speakers": [
+    {
+     "name": "Joachim Schaeffer",
+     "affiliation": "R40 Research"
+    }
+   ],
+   "abstract": "Frontier providers hide reasoning traces as encrypted blobs to protect intellectual property. We found that replaying a trace to a compatible, less-protected model recovers it in plaintext. Providers confirmed the attack and deployed mitigations. Auditing 315,320 public blobs exposed credentials and private data in hundreds of trajectories. Recovered traces aid distillation, reveal model reasoning, and measurably boosted performance on harmful biological, chemical, and radiological queries. Short fragments also made some open-weight models mimic source models, suggesting prior training exposure. CISA later warned that state-backed actors used this attack for industrial-scale distillation. A month after disclosure, cloud aggregators remained exposed: encryption is only as strong as the weakest endpoint.",
    "kind": "session"
   },
   {
