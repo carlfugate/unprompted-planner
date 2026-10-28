@@ -1,6 +1,6 @@
 {
  "source": "https://unpromptedcon.org/agenda-10-2026/",
- "source_modified": "2026-10-27T22:07:03Z",
+ "source_modified": "2026-10-28T06:49:49Z",
  "days": [
   "2026-10-27",
   "2026-10-28",
@@ -150,6 +150,10 @@
    "title": "Introduction To Harness Engineering For Vulnerability Research",
    "speakers": [
     {
+     "name": "– Room 1, Floor 1",
+     "affiliation": ""
+    },
+    {
      "name": "Graham Helton",
      "affiliation": "Snowflake"
     },
@@ -174,6 +178,10 @@
    "title": "What Deserves the SOC’s Attention? Ranking Incidents and Misconfigurations with LLMs",
    "speakers": [
     {
+     "name": "– Room 2, Floor 2",
+     "affiliation": ""
+    },
+    {
      "name": "Benjamin Koltermann",
      "affiliation": "CTO, cenroq"
     }
@@ -193,6 +201,10 @@
    "end": "12:15",
    "title": "Finding Vulnerabilities with AgentGG AI Agents: A Hands-On Workshop",
    "speakers": [
+    {
+     "name": "– Room 3, Floor 2",
+     "affiliation": ""
+    },
     {
      "name": "Gracia Gu",
      "affiliation": "Software Engineer"
@@ -476,6 +488,10 @@
    "title": "Build an Agentically Secured CI/CD Pipeline [CSA]",
    "speakers": [
     {
+     "name": "– Room 2, Floor 2",
+     "affiliation": ""
+    },
+    {
      "name": "Rich Mogull",
      "affiliation": "Chief Analyst, Cloud Security Alliance"
     }
@@ -495,6 +511,10 @@
    "end": "15:45",
    "title": "Break Your Agent’s Memory",
    "speakers": [
+    {
+     "name": "– Room 3, Floor 2",
+     "affiliation": ""
+    },
     {
      "name": "Cristian Leo",
      "affiliation": "CTO and co-founder, Armorer Labs (YC F26)"
@@ -519,6 +539,10 @@
    "end": "15:45",
    "title": "Introduction To Harness Engineering For Vulnerability Research",
    "speakers": [
+    {
+     "name": "– Room 1, Floor 1",
+     "affiliation": ""
+    },
     {
      "name": "Graham Helton",
      "affiliation": "Snowflake"
@@ -968,6 +992,10 @@
    "title": "PyRIT CTF Workshop",
    "speakers": [
     {
+     "name": "– Room 2, Floor 2",
+     "affiliation": ""
+    },
+    {
      "name": "Richard Lundeen",
      "affiliation": "AI Red Team Automation Lead, Microsoft"
     },
@@ -992,8 +1020,16 @@
    "title": "Reinforcement Learning for Open-Weight Security LLMs, with a Live Training Run",
    "speakers": [
     {
+     "name": "– Room 1, Floor 1",
+     "affiliation": ""
+    },
+    {
      "name": "Sahil Garg",
      "affiliation": "Principal AI Researcher, Averlon | Training LLMs for Cybersecurity"
+    },
+    {
+     "name": "Vishal Ararwal",
+     "affiliation": "Co-Founder and CTO, Averlon"
     }
    ],
    "abstract": "Hands-on workshop on reinforcement learning for security LLMs, featuring live Gemma 4 12B training to reduce over-refusal without enabling harmful requests.",
@@ -1011,6 +1047,10 @@
    "end": "12:15",
    "title": "You Ran Mythos and Grew the Queue. Now What? Who Fixes These Security Issues?",
    "speakers": [
+    {
+     "name": "– Room 3, Floor 2",
+     "affiliation": ""
+    },
     {
      "name": "Kamal Srinivasan",
      "affiliation": "Co-founder, UnitOne | Building security remediation for enterprise teams"
@@ -1294,6 +1334,10 @@
    "title": "Playing Games and Making Decisions with AI",
    "speakers": [
     {
+     "name": "– Room 2, Floor 2",
+     "affiliation": ""
+    },
+    {
      "name": "Richard Johnson",
      "affiliation": "Fuzzing IO and Metaframe AI, advanced cybersecurity and agent solutions"
     }
@@ -1314,6 +1358,10 @@
    "title": "Vibe Coding an Evasion Framework [SANS]",
    "speakers": [
     {
+     "name": "– Room 3, Floor 2",
+     "affiliation": ""
+    },
+    {
      "name": "Dave Mayer",
      "affiliation": "CIO & MD Advanced Assessments"
     }
@@ -1333,6 +1381,10 @@
    "end": "15:45",
    "title": "Possession Is Not Permission: Hands-On Authority Control for Capable Agents",
    "speakers": [
+    {
+     "name": "– Room 1, Floor 1",
+     "affiliation": ""
+    },
     {
      "name": "Aditya Kuppa",
      "affiliation": "Co-Founder, Mirror Security"
@@ -1567,14 +1619,18 @@
    "kind": "session"
   },
   {
-   "id": "b465a5641c",
+   "id": "88a9aa4875",
    "day": 2,
    "date": "2026-10-28",
    "track": "Workshops",
    "start": "16:00",
    "end": "18:00",
-   "title": "Agents Attacking Agents: A Hands-On CTF in Red Teaming Agentic Systems.",
+   "title": "Agents Attacking Agents: A Hands-On CTF in Red Teaming Agentic Systems",
    "speakers": [
+    {
+     "name": "– Room 1, Floor 1",
+     "affiliation": ""
+    },
     {
      "name": "Gary Lopez",
      "affiliation": "Founder, Tinycode"
@@ -1917,6 +1973,10 @@
    "title": "Zero Trust for the Agentic SOC: Building, Governing, and Stress-Testing in the AI Era [SANS]",
    "speakers": [
     {
+     "name": "– Room 2, Floor 2",
+     "affiliation": ""
+    },
+    {
      "name": "Ismael Valenzuela",
      "affiliation": "SANS Author and Senior Instructor, VP of Labs, Threat Research and Intelligence at Arctic Wolf"
     },
@@ -1941,6 +2001,10 @@
    "title": "Hacking Kubernetes Like an Agent – Hands-on With the Hugging Face Breach",
    "speakers": [
     {
+     "name": "– Room 1, Floor 1",
+     "affiliation": ""
+    },
+    {
      "name": "Jay Beale",
      "affiliation": "CTO, InGuardians"
     }
@@ -1960,6 +2024,10 @@
    "end": "12:15",
    "title": "Your Agent’s Approval Prompt Is an Attack Surface. Gate It.",
    "speakers": [
+    {
+     "name": "– Room 3, Floor 2",
+     "affiliation": ""
+    },
     {
      "name": "Rita Sabri",
      "affiliation": "Cybersecurity educator and researcher"
@@ -2221,6 +2289,10 @@
    "title": "Fuzzing Native Node.js Dependencies with LLMs",
    "speakers": [
     {
+     "name": "– Room 3, Floor 2",
+     "affiliation": ""
+    },
+    {
      "name": "Erlend Oftedal",
      "affiliation": "AI and AppSec at NorForge"
     }
@@ -2241,6 +2313,10 @@
    "title": "Specification – Driven Coding",
    "speakers": [
     {
+     "name": "– Room 2, Floor 2",
+     "affiliation": ""
+    },
+    {
      "name": "Jordan Hubbard",
      "affiliation": "Sr. Director, NVIDIA. Speaker to code consultant"
     }
@@ -2260,6 +2336,10 @@
    "end": "15:45",
    "title": "Benign Until It Isn’t: Build a Sleeper Skill, Then Catch It",
    "speakers": [
+    {
+     "name": "– Room 1, Floor 1",
+     "affiliation": ""
+    },
     {
      "name": "Harsh Akshit",
      "affiliation": "AI security research, Metano"
