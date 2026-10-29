@@ -1,6 +1,6 @@
 {
  "source": "https://unpromptedcon.org/agenda-10-2026/",
- "source_modified": "2026-10-28T17:20:02Z",
+ "source_modified": "2026-10-29T16:30:01Z",
  "days": [
   "2026-10-27",
   "2026-10-28",
@@ -2115,13 +2115,13 @@
    "kind": "session"
   },
   {
-   "id": "9761a7e4af",
+   "id": "e00ede996d",
    "day": 3,
    "date": "2026-10-29",
    "track": "Stage 2",
    "start": "11:10",
-   "end": "11:35",
-   "title": "TBA",
+   "end": "12:00",
+   "title": "Lightning talks",
    "speakers": [],
    "abstract": "",
    "kind": "session"
@@ -2141,18 +2141,6 @@
     }
    ],
    "abstract": "In computer security, the CIA Triad represented the three security properties systems should have: confidentiality, integrity, and availability. Of the three, integrity has been the most elusive; and, in an AI-powered internet-of-things world, the most important. This talk explores all the facets of integrity: data, processing, storage, and contextual. If we are ever going to trust these systems to take complex actions on our behalf – we are going to need to solve integrity.",
-   "kind": "session"
-  },
-  {
-   "id": "bc4b4ee70b",
-   "day": 3,
-   "date": "2026-10-29",
-   "track": "Stage 2",
-   "start": "11:35",
-   "end": "12:00",
-   "title": "TBA",
-   "speakers": [],
-   "abstract": "",
    "kind": "session"
   },
   {
